@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: rgb(26, 26, 26);
+  overflow: hidden;
+  display: flex;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container {
+  border-radius: 0.1em;
+  background-color: white;
+  height: 33rem;
+  width: 22rem;
+  padding: 3rem;
+  margin: auto;
+}
+#Create {
+  margin-top: 0%;
+  font-size: 25px;
+  font-weight: 700;
+}
+input.put {
+  height: 2.7rem;
+  width: 22rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1.5rem;
+}
+input[type="email"],
+input[type="password"] {
+  padding-left: 10px;
+}
+input.put:hover {
+  border: 1px solid rgb(98, 52, 206);
+  /* position:sticky; */
+}
+a{
+    color:rgb(116, 29, 197);
+}
+.forgot > a {
+  text-decoration: none;
+}
+.forgot > a:hover {
+  text-decoration: underline;
+}
+
+.login {
+  height: 2.5rem;
+  background-color:rgb(116, 29, 197);
+  width: 5rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin-top: 0.2rem;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.login:hover {
+    background-color:rgb(130, 69, 188);
+}
+.media {
+  display: flex;
+  width:23rem;
+  /* border:2px solid orange; */
+  justify-content: center;
+}
+img#social{
+  height:1.2rem;
+  border:2px solid rgba(53, 53, 53, 0.53);
+  width:1.2rem;
+  padding:1rem 1.5rem;
+  border-radius: 2px;
+  margin:2px;
+}
+img#social:hover{
+  background-color: rgba(156, 156, 156, 0.129);
+}
+.link{
+  text-decoration: none;
+}
+#or {
+  font-weight: 600;
+}
+.sign {
+  display: flex;
+  margin: auto;
+}
+.sign > p {
+  padding-right: 0.5rem;
+}
+a:hover {
+  text-decoration: none;
+}
+#loginlink {
+    color:rgb(116, 29, 197);
+}
