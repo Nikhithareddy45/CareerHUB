@@ -109,51 +109,23 @@ header {
     margin: auto;
   }
 }
-.courses{
+.about{
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  max-width:89vw;
-  gap:15px;
+  justify-content: center;
+  max-width:90vw;
   margin:auto;
-  margin-bottom: 25px;
+  padding:2rem;
 }
-.heading{
-  text-align: center;
-  margin: 22px;
-  font-size:3vw;
-}
-.flex{
-  /* border:2px solid red; */
-  margin: 22px auto;
-  height:20rem;
-  width:20rem;
-  background-color: rgba(152, 71, 227, 0.397);
-  border:2px solid rgba(152, 71, 227, 0.201);
-  border-radius: 20px;
+.about-text{
   display:flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap:10px;
-  padding:30px;
-  cursor: pointer;
-  /* transition: all 5s ease-in-out; */
 }
-.flex img{
-  /* border:2px solid blue; */
-  height: 5rem;
-  width:5rem;
-  border-radius:50%;
+.action-img>img{
+  width:40vw;
 }
-.flex h5{
-  font-size: 1.5rem;
-}
-.flex:hover{
-  transform: scale(1.05); 
-  transition: all 0.75s ease-in;
-
+span,h3,h1{
+  line-height:1.5;
 }
 footer{
   display:flex;
