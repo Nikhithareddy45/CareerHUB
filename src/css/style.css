@@ -244,6 +244,30 @@ header {
     font-size: 3vw;
   }
 }
+.section-button{
+  height:5rem;
+  display:flex;
+  align-items: center;
+  margin:20px 0px;
+}
+.section-button>button{
+  cursor:pointer;
+  padding: 20px 5rem;
+  background-color: #551ab8;
+  border:none;
+  border-radius: 5px;
+  
+}
+.section-button>button>a{
+  cursor:pointer;
+  padding: 20px 5rem;
+  text-decoration: none;
+  border:none;
+  color:white;
+  font-size:18px;
+  font-family: "Salsa", cursive;
+  
+}
 footer {
   display: flex;
   align-items: center;
