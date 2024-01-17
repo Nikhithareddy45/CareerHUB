@@ -134,6 +134,7 @@ header {
     padding:20px;
     text-decoration: none;
     border-radius: 5px;
+    color:blueviolet;
 }
 .skills-flex>a:hover{
     background-color: #541ab868;
