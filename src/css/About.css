@@ -124,8 +124,9 @@ header {
 .action-img>img{
   width:40vw;
 }
-span,h3,h1{
+.about-text>span,h3,h1{
   line-height:1.5;
+  padding:10px;
 }
 footer{
   display:flex;

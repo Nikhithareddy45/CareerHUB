@@ -109,7 +109,41 @@ header {
     margin: auto;
   }
 }
+.contact-heading{
+  text-align: center;
+  margin:20px;
+  font-size:38px;
+  padding:20px;
+}
 
+.contact-flex{
+  display: flex;
+  flex-direction: column;
+  border:2px solid rgba(137, 43, 226, 0.374);
+  margin:auto;
+  justify-content: center;
+  padding:2rem;
+  width:50vw;
+}
+.msg{
+  display: flex;
+  flex-direction: column;
+}
+.msg input{
+  width:45vw;
+  margin:20px;
+  padding:20px;
+  border:2px solid black;
+  border-radius:5px;
+}
+.msg input::placeholder{
+  color:black;
+  font-size:18px;
+}
+#textarea{
+  height:10rem;
+  margin-bottom: 20px;
+}
 footer{
   display:flex;
   align-items: center;
