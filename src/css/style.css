@@ -180,10 +180,10 @@ header {
     width: 100vw;
   }
   .career-text > h3 {
-    font-size: 8vw;
+    font-size: 20px;
   }
   .career-text > p {
-    font-size: 3vw;
+    font-size: 16px;
   }
   #title {
     color: white;
@@ -207,12 +207,12 @@ header {
 }
 .section-text>h3{
   /* border:2px solid green; */
-  font-size:3vw;
+  font-size:20px;
   line-height: 1.5;
 }
 .section-text>p{
   /* border:2px solid green; */
-  font-size: 1.5vw;
+  font-size: 20px;
   line-height: 1.5;
 }
 .section-img img {  
@@ -238,10 +238,10 @@ header {
     width:88vw;
   }
   .section-text > h3 {
-    font-size: 8vw;
+    font-size: 20px;
   }
   .section-text > p {
-    font-size: 3vw;
+    font-size: 16px;
   }
 }
 .section-button{
@@ -292,5 +292,8 @@ footer {
     padding: 0px 20px;
     height: 14rem;
     width:100%;
+  }
+  .first{
+    font-size: 15px;
   }
 }
