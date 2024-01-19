@@ -104,6 +104,7 @@ header {
     right: 0;
     text-align: center;
     background-color: rgba(148, 63, 228, 0.92);
+    z-index:10;
   }
   .register {
     margin: auto;
@@ -175,5 +176,11 @@ footer{
     padding:0;
     margin:0;
     height:14rem;
+  }
+}
+@media only screen and (min-width: 980px) and (max-width: 1340px) {
+  footer{
+    gap:0px;
+    flex-wrap: nowrap;
   }
 }
