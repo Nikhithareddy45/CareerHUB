@@ -116,6 +116,7 @@ header {
   justify-content: center;
   max-width:90vw;
   margin:auto;
+  padding:20px;
 }
 .action-img>img{
   /* border:2px solid rgb(37, 131, 117); */

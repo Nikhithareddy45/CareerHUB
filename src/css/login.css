@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 html,
 body {
   height: 100%;
@@ -7,7 +9,7 @@ body {
   background-color: rgb(26, 26, 26);
   overflow: hidden;
   display: flex;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Salsa", cursive;
 }
 .container {
   border-radius: 0.1em;
@@ -57,7 +59,7 @@ a{
   font-size: 1rem;
   margin-bottom: 1rem;
   cursor: pointer;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Salsa", cursive;
 }
 .login:hover {
     background-color:rgb(130, 69, 188);

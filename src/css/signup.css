@@ -1,90 +1,92 @@
-html,body{
-    height:100%;
-    width:100%;
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-body{
-    background-color: rgb(26, 26, 26);
-    overflow:hidden;
-    display:flex;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+body {
+  background-color: rgb(26, 26, 26);
+  overflow: hidden;
+  display: flex;
+  font-family: "Salsa", cursive;
 }
-.container{
-    border-radius: 0.1em;
-    background-color:white;
-    height:33rem;
-    width:22rem;
-    padding:3rem;
-    margin:auto;
+.container {
+  border-radius: 0.1em;
+  background-color: white;
+  height: 33rem;
+  width: 22rem;
+  padding: 3rem;
+  margin: auto;
 }
-#Create{
-    margin-top: 0%;
-    font-size: 25px; 
-    font-weight: 800;
+#Create {
+  margin-top: 0%;
+  font-size: 25px;
+  font-weight: 800;
 }
 input[type="email"],
-      input[type="password"] {
-        padding-left: 10px;
-      }
-input.put{
-   height: 2.7rem;
-   width:22rem;
-   margin-top:0.2rem;
-   margin-bottom:1.5rem;   
+input[type="password"] {
+  padding-left: 10px;
 }
-input.put:hover{
-    border:1px solid rgb(98, 52, 206);
-    /* position:sticky; */
+input.put {
+  height: 2.7rem;
+  width: 22rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1.5rem;
 }
-#other{
-    font-weight: 600;
+input.put:hover {
+  border: 1px solid rgb(98, 52, 206);
+  /* position:sticky; */
+}
+#other {
+  font-weight: 600;
 }
 
-.signup{
-    font-family:"Comic Sans MS", cursive, sans-serif ;
-    height:2.5rem;
-    background-color: blueviolet;
-    width:22.5rem;
-    border-radius: 0.3rem;
-    border:none;
-    margin-top:0.2rem;
-    color:white;
-    font-size: 1rem;
-    margin-bottom:1rem;
-    cursor:pointer;
+.signup {
+  font-family: "Salsa", cursive;
+  height: 2.5rem;
+  background-color: blueviolet;
+  width: 22.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin-top: 0.2rem;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
-.signup:hover{
-    background-color: rgba(137, 43, 226, 0.874);
+.signup:hover {
+  background-color: rgba(137, 43, 226, 0.874);
 }
 .media {
-        display: flex;
-        width:23rem;
-        /* border:2px solid orange; */
-        justify-content: center;
-      }
-      img#social{
-        height:1.2rem;
-        border:2px solid rgba(53, 53, 53, 0.53);
-        width:1.2rem;
-        padding:1rem 1.5rem;
-        border-radius: 2px;
-        margin:2px;
-      }
-      img#social:hover{
-        background-color: rgba(156, 156, 156, 0.129);
-      }
-.login{
-    display:flex;
-    justify-content: center;
+  display: flex;
+  width: 23rem;
+  /* border:2px solid orange; */
+  justify-content: center;
 }
-.login>p{
-    padding-right:0.5rem;
+img#social {
+  height: 1.2rem;
+  border: 2px solid rgba(53, 53, 53, 0.53);
+  width: 1.2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 2px;
+  margin: 2px;
 }
-.link>img:hover{
-    background-color: rgb(108, 103, 103);
+img#social:hover {
+  background-color: rgba(156, 156, 156, 0.129);
 }
-a{
-    color:blueviolet;
+.login {
+  display: flex;
+  justify-content: center;
 }
-a:hover{
-    text-decoration: none;
+.login > p {
+  padding-right: 0.5rem;
+}
+.link > img:hover {
+  background-color: rgb(108, 103, 103);
+}
+a {
+  color: blueviolet;
+}
+a:hover {
+  text-decoration: none;
 }
